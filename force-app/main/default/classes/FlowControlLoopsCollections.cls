@@ -345,16 +345,14 @@ public with sharing class FlowControlLoopsCollections {
      * @return The Map of fruits and their quantities.
      */
     public static Map<String, Integer> addItemsToMap() {
-        // Initialize an empty Map
-
-        // Add key-value pairs to the Map
-        // add Apples => 5
-        // add Oranges => 10
-        // add Bananas => 15
-        // add Pears => 20
-        // add Grapes => 25
-
-        return null; // Replace null with the variable you used to store the result
+        Map<String, Integer> fruitMap = new Map<String, Integer>{
+            'Apples' => 5,
+            'Oranges' => 10,
+            'Bananas' => 15,
+            'Pears' => 20,
+            'Grapes' => 25
+        };
+        return fruitMap;
     }
 
     /**
